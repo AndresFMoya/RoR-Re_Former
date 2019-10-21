@@ -17,12 +17,11 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
+  def update
+    @user = User.find_by(params[:id]).update(user_params)
+  end
+
   def user_params
     params.require(:user).permit(:username, :email, :password)
   end
-
-  def update
-    @user.update_attributes(user_params)
-  end
-
 end
