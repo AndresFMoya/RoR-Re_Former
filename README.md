@@ -4,5 +4,5 @@ This project consist of build some forms, both using nearly-pure HTML and then g
 
 # Contributors
 
-Raymond Oluoch [GitHub](https://github.com/kerronking)
+Kerron King [GitHub](https://github.com/kerronking)
 Andrés F. Moya [GitHub](https://github.com/AndresFMoya)
