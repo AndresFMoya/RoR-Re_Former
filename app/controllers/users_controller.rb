@@ -13,7 +13,16 @@ class UsersController < ApplicationController
     end
   end
 
+  def edit
+    @user = User.find(params[:id])
+  end
+
   def user_params
     params.require(:user).permit(:username, :email, :password)
   end
+
+  def update
+    @user.update_attributes(user_params)
+  end
+
 end
