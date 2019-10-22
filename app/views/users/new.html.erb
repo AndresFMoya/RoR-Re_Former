@@ -1,0 +1,27 @@
+<!-- <h1>User Sign-up</h1>
+
+ <form action="/users" method="post" accept-charset="UTF-8">
+   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+   <label for="user_username">Enter your username<label>
+   <input type="text" name="user[username]" id="user_username"><br>
+   <label for="user_email">Enter your email address<label>
+   <input type="email" name="user[email]" id="user_email"><br>
+   <label for="user_password">Enter your password<label>
+   <input type="password" name="user[password]" id="user_password"><br>
+   <input type="submit" value="Submit">
+ </form> -->
+
+<%#<%= form_tag('/users') do %>
+  <%#<%= label_tag 'user_username', 'Enter your username' %>
+  <%#<%= text_field_tag :username %>
+
+  <%#<%= label_tag 'user_email', 'Enter your email address' %>
+  <%#<%= email_field_tag :email %>
+
+  <%#<%= label_tag 'user_password', 'Enter your password' %>
+  <%#<%= password_field_tag :password %>
+
+  <%#<%= submit_tag %>
+<%#<% end %>
+
+<%= render 'layouts/body' %>
